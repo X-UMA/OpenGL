@@ -299,7 +299,10 @@ int main() {
 	game.LoadMeshFromFile("Res/Blast.fbx");
 
 	game.LoadFontFromFile("Res/UniNeue.fnt");
-
+	
+	/*
+	ÉRÉÅÉìÉg
+	*/
 	game.CollisionHandler(EntityGroupId_PlayerShot, EntityGroupId_Enemy,
 		&PlayerShotAndEnemyCollisionHandler);
 	game.UpdateFunc(Update());
